@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(90deg, rgba(143,163,146,0.7763480392156863) 18%, rgba(255,83,226,1) 53%, rgba(37,37,22,0.8631827731092436) 100%);
+    font-family: 'Palette Mosaic', cursive;
+  }
+  
+  .container {
+    display:grid;
+    place-items: center;
+    margin-top: 7em;
+  }
+  
+  #header {
+    text-align:center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: blue;
+  }
+  
+  .dad-joke-container {
+    box-shadow: 0 0  10px gray;
+    background:lightblue;
+    padding: 2em;
+  }
+  
+  #dad-joke-btn {
+    padding: 1em;
+    border-radius: 50%;
+    cursor:pointer;
+    margin-top: 3em;
+  }
+  
+  #dad-joke-btn:hover {
+    opacity: 0.5;
+    text-align: center;
+  }
